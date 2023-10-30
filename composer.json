@@ -18,6 +18,12 @@
 		"authorization",
 		"authentication"
 	],
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/Damien-Unsolite/oauth2-factorial.git"
+		}
+	],
     "require": {
         "league/oauth2-client": "^2.7"
     }
