@@ -1,5 +1,5 @@
 {
-	"name": "Damien-Unsolite/oauth2-factorial",
+	"name": "damien-unsolite/oauth2-factorial",
 	"description": "Factorial Provider for OAuth 2.0 Client",
 	"license": "MIT",
 	"authors": [
@@ -26,6 +26,6 @@
 	],
     "require": {
         "league/oauth2-client": "^2.7",
-		"Damien-Unsolite/oauth2-factorial": "dev-main"
+		"damien-unsolite/oauth2-factorial": "dev-main"
     }
 }
