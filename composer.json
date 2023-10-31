@@ -1,31 +1,37 @@
 {
-	"name": "damien-unsolite/oauth2-factorial",
-	"description": "Factorial Provider for OAuth 2.0 Client",
-	"license": "MIT",
-	"authors": [
-		{
-			"name": "Damien JEANNOT",
-			"email": "damien.j.github@unsolite.com"
-		}
-	],
-	"keywords": [
-		"php",
-		"factorial",
-		"api",
-		"oauth",
-		"oauth2",
-		"client",
-		"authorization",
-		"authentication"
-	],
-	"repositories": [
-		{
-			"type": "vcs",
-			"url": "https://github.com/Damien-Unsolite/oauth2-factorial.git"
-		}
-	],
-    "require": {
-        "league/oauth2-client": "^2.7",
-		"damien-unsolite/oauth2-factorial": "dev-main"
+  "name": "damien-unsolite/oauth2-factorial",
+  "description": "Factorial Provider for OAuth 2.0 Client",
+				   
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Damien JEANNOT",
+      "email": "damien.j.github@unsolite.com"
     }
+  ],
+  "keywords": [
+    "php",
+    "factorial",
+    "api",
+    "oauth",
+    "oauth2",
+    "client",
+    "authorization",
+    "authentication"
+  ],
+				  
+  "require": {
+    "league/oauth2-client": "^2.0"
+  },
+   
+   
+  "require-dev": {
+    "phpunit/phpunit": "~4.0",
+    "mockery/mockery": "~0.9"
+  },
+  "autoload": {
+    "psr-4": {
+      "DamienUnsolite\\OAuth2\\Client\\": "src/"
+    }
+  }
 }
