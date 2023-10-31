@@ -1,7 +1,6 @@
 {
   "name": "damien-unsolite/oauth2-factorial",
   "description": "Factorial Provider for OAuth 2.0 Client",
-				   
   "license": "MIT",
   "authors": [
     {

@@ -43,7 +43,7 @@ class Factorial extends AbstractProvider
      */
     public function getResourceOwnerDetailsUrl(AccessToken $token)
     {
-        return 'https://api.demo.factorial.dev/api/v1/me';
+        return 'https://api.factorialhr.com/api/v1/me';
     }
 
     /**
@@ -53,7 +53,7 @@ class Factorial extends AbstractProvider
      */
     protected function getDefaultScopes()
     {
-        return ['profile'];
+        return [];
     }
 
     /**

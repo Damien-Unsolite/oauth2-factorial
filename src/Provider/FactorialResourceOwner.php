@@ -27,43 +27,63 @@ class FactorialResourceOwner implements ResourceOwnerInterface
     }
 
     /**
-     * Get resource owner id
+     * Get resource employee_id
      *
      * @return string|null
      */
     public function getId()
     {
-        return $this->getValueByKey($this->response, 'user_id');
+        return $this->getValueByKey($this->response, 'employee_id');
     }
 
     /**
-     * Get resource owner name
+     * Get resource role
      *
      * @return string|null
      */
-    public function getName()
+    public function getRole()
     {
-        return $this->getValueByKey($this->response, 'name');
+        return $this->getValueByKey($this->response, 'role');
     }
 
     /**
-     * Get resource owner postal code
-     *
-     * @return string|null
-     */
-    public function getPostalCode()
-    {
-        return $this->getValueByKey($this->response, 'postal_code');
-    }
-
-    /**
-     * Get resource owner email
+     * Get resource email
      *
      * @return string|null
      */
     public function getEmail()
     {
         return $this->getValueByKey($this->response, 'email');
+    }
+
+    /**
+     * Get resource fullname
+     *
+     * @return string|null
+     */
+    public function getFullname()
+    {
+        return $this->getValueByKey($this->response, 'full_name');
+    }
+
+    /**
+     * Get resource lastname
+     *
+     * @return string|null
+     */
+    public function getLastname()
+    {
+        return $this->getValueByKey($this->response, 'last_name');
+    }
+
+    /**
+     * Get resource firstname
+     *
+     * @return string|null
+     */
+    public function getFirstname()
+    {
+        return $this->getValueByKey($this->response, 'first_name');
     }
 
     /**
